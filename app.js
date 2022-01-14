@@ -21,6 +21,6 @@ startGameBtn.addEventListener("click", () => {
   }
   console.log("Game is running");
   gameRunning = true
-    const playerSelection = getPlayerChoice();
-    console.log(playerSelection);
+    const playerChoice = getPlayerChoice();
+    console.log(playerChoice);
 });
